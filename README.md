@@ -1,2 +1,2 @@
 # MESSMATE
-An Android app for dorms and hostels to track daily meals, calculate due amounts and manage member payments with a role-based admin dashboard.
+Android hostel mess management system for tracking meals, calculating dues, and managing member payments using Firebase.
