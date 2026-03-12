@@ -1,4 +1,4 @@
-# MessMate 🍲
+# MessMate 
 ### Android Hostel Mess Management System
 
 MessMate is an Android application designed to simplify hostel and dormitory mess management. The app helps administrators and members track daily meals, manage payments, and monitor due balances in real time.
@@ -104,14 +104,14 @@ To run this project locally you need:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/messmate-android.git
+git clone https://github.com/marufahmedanik/MESSMATE-android.git
 ```
 
 Open the project in **Android Studio**.
 
 ---
 
-## 🔥 Firebase Setup
+## Firebase Setup
 
 1. Go to Firebase Console
 2. Create a new project
@@ -144,24 +144,6 @@ app/
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots like this:
-
-```
-assets/dashboard.png
-assets/meals.png
-assets/payments.png
-```
-
-Example:
-
-```
-![Dashboard](assets/dashboard.png)
-```
-
----
-
 ## 🚧 Future Improvements
 
 - Monthly mess financial reports
@@ -183,15 +165,10 @@ Contributions are welcome.
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
 ## 👨‍💻 Author
 
 **Md.Maruf Ahmed Anik**
 
 Undergraduate | Computer Science & Engineering
-EAST WEST UNIVERSITY
+
+EAST WEST UNIVERSITY, Bangladesh.
