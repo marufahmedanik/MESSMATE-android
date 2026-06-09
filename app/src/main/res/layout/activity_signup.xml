@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light_blue"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MESSMATE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_dark_blue"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRACK.SPLIT.CHILL"
+            android:textSize="10sp"
+            android:textColor="@color/text_hint"
+            android:letterSpacing="0.2"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Tabs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+            
+            <Button
+                android:id="@+id/btn_nav_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Log in"
+                android:textSize="18sp"
+                android:textColor="@color/text_hint"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:stateListAnimator="@null"/>
+
+             <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sign up"
+                android:textSize="18sp"
+                android:textColor="@color/primary_blue"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:stateListAnimator="@null"/>
+        </LinearLayout>
+
+        <!-- Tab Indicators -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+            
+            <!-- Login Indicator (Inactive) -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:background="#AAAAAA" />
+
+            <!-- Signup Indicator (Active) -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="@color/primary_blue" />
+        </LinearLayout>
+
+        <!-- Form -->
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="example@gmail.com"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp"/>
+
+
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="*************"
+            android:inputType="textPassword"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="*************"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_button"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
