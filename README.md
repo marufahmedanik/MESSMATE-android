@@ -1,174 +1,89 @@
-# MessMate 
-### Android Hostel Mess Management System
+# MESSMATE 2.0 🍲💰
 
-MessMate is an Android application designed to simplify hostel and dormitory mess management. The app helps administrators and members track daily meals, manage payments, and monitor due balances in real time.
-
-Built using **Java and Firebase**, MessMate provides a transparent and efficient system for managing shared meal environments such as student hostels and dormitories.
+> A comprehensive Android application designed to simplify hostel and mess management. Built with Java and powered by Firebase, MessMate 2.0 provides a seamless experience for both administrators and regular members to track meals, manage payments, and monitor due amounts.
 
 ---
 
 ## 🚀 Features
 
 ### 🔐 Role-Based Access
-
-#### Admin Dashboard
-- Manage mess members
-- Record daily meals
-- Confirm member payments
-- Monitor due balances
-
-#### Member Dashboard
-- Track personal meal consumption
-- View payment history
-- Check due amounts in real time
-
-#### Secure Authentication
-- Email and password login
-- Google Sign-In
-- Firebase Authentication
-
----
+- **Admin Dashboard:** Exclusive controls for managers to oversee the mess, add meals, and confirm payments.
+- **Member Dashboard:** Personalized view for residents to track their own meals, dues, and transaction history.
+- **Secure Authentication:** Email/Password and Google Sign-In support powered by Firebase Auth.
 
 ### 🍲 Meal Management
+- **Daily Meal Logging:** Keep accurate records of meals consumed per member daily.
+- **Meal Lists:** View entire meal histories to ensure transparent tracking for everyone in the mess.
 
-- Daily meal logging
-- Track meals per member
-- Transparent meal history
+### 💰 Financial Tracking
+- **Due Amount Calculation:** Automated, real-time calculations of how much each member owes based on the current meal rate and their deposits.
+- **Payment History:** A dedicated ledger for members to view past payments.
+- **Transaction Confirmations:** Admins can verify and confirm member payments directly through the app.
 
----
-
-### 💰 Financial Management
-
-- Automatic due calculation
-- Real-time balance updates
-- Payment history tracking
-- Admin payment confirmation
+### 👥 User Ecosystem
+- **Member List view:** Admins can view and manage all active mess members in one place.
+- **Profile Management:** Users can update their personal information securely.
 
 ---
 
-### 👥 Member Management
+## 🛠️ Tech Stack & Technologies Used
 
-- View all mess members
-- Profile management
-- Organized member records
-
----
-
-## 🛠 Tech Stack
-
-**Language**
-- Java
-
-**Frontend**
-- XML Layouts
-- Material Design Components
-
-**Backend**
-- Firebase Authentication
-- Firebase Firestore
-- Firebase Realtime Database
-
-**Tools**
-- Android Studio
-- Android SDK
-- Gradle
+- **Language:** Java
+- **UI/UX:** XML (Android Standard Layouts), Material Design Components
+- **Backend/Database:** 
+  - Firebase Authentication (Credentials & Google Sign-In)
+  - Firebase Realtime Database
+  - Firebase Firestore
+- **Architecture/Tools:** 
+  - Android SDK (Min 24, Target 36)
+  - Gradle (KTS)
 
 ---
 
-## 📱 Project Architecture
+## ⚙️ Prerequisites
 
-```
-Android App
-   │
-Firebase Authentication
-   │
-Firestore / Realtime Database
-   │
-Meal Tracking & Payment System
-```
+To run this project locally, you will need:
+1. **Android Studio** (Latest stable version recommended)
+2. **Java Development Kit (JDK) 11** or higher.
+3. An active **Firebase Project**.
 
 ---
 
-## ⚙ Requirements
+## 💻 Installation & Setup
 
-To run this project locally you need:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/MESSMATE2.0.git
+   ```
 
-- Android Studio (latest version recommended)
-- Java Development Kit (JDK 11+)
-- Firebase Project
+2. **Open the Project in Android Studio:**
+   - Launch Android Studio.
+   - Click on `Open an existing Android Studio project`.
+   - Navigate to the cloned `MESSMATE2.0` directory and select it.
 
----
+3. **Configure Firebase:**
+   - Go to your [Firebase Console](https://console.firebase.google.com/).
+   - Add a new Android app to your project with the package name `ewubd.edu.messmate`.
+   - Download the generated `google-services.json` file.
+   - Place the `google-services.json` file inside the `app/` directory of this project.
+   - Enable **Authentication** (Email/Password & Google), **Firestore**, and **Realtime Database** in your Firebase console.
 
-## 💻 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/marufahmedanik/MESSMATE-android.git
-```
-
-Open the project in **Android Studio**.
-
----
-
-## Firebase Setup
-
-1. Go to Firebase Console
-2. Create a new project
-3. Add Android app with package name:
-
-```
-ewubd.edu.messmate
-```
-
-4. Download **google-services.json**
-5. Place the file inside:
-
-```
-app/
-```
-
-6. Enable the following services:
-
-- Firebase Authentication
-- Cloud Firestore
-- Realtime Database
+4. **Sync and Build:**
+   - Let Android Studio sync the Gradle files.
+   - Click the **Run** button (green play icon) to build and deploy the app to your emulator or physical Android device.
 
 ---
 
-## ▶ Running the App
-
-1. Sync Gradle
-2. Connect an Android device or emulator
-3. Click **Run**
-
----
-
-## 🚧 Future Improvements
-
-- Monthly mess financial reports
-- Expense tracking (gas, utilities)
-- Push notifications
-- Admin analytics dashboard
-- Meal prediction analytics
+## 📸 Screenshots
+*(You can add your app screenshots here by placing images in an `assets` folder and linking them like this: `![Dashboard](assets/dashboard.png)`)*
 
 ---
 
 ## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a Pull Request
+Contributions, issues, and feature requests are welcome! 
+Feel free to check the [issues page](../../issues).
 
 ---
 
-## 👨‍💻 Author
-
-**Md.Maruf Ahmed Anik**
-
-Undergraduate | Computer Science & Engineering
-
-EAST WEST UNIVERSITY, Bangladesh.
+## 📄 License
+[MIT](https://choosealicense.com/licenses/mit/) *(Update this if you are using a different license)*
