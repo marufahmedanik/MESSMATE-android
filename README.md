@@ -86,4 +86,4 @@ Feel free to check the [issues page](../../issues).
 ---
 
 ## 📄 License
-[MIT](https://choosealicense.com/licenses/mit/) *(Update this if you are using a different license)*
+This project is licensed under the [MIT License](LICENSE).
