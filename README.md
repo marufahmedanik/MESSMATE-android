@@ -86,4 +86,5 @@ Feel free to check the [issues page](../../issues).
 ---
 
 ## 📄 License
-This project is licensed under the [MIT License](LICENSE).
+- This project is licensed under the [MIT License](LICENSE).
+- Third-party libraries and components are licensed under their respective open-source licenses as documented in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
